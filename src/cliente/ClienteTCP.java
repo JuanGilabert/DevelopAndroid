@@ -20,7 +20,7 @@ public class ClienteTCP {
     private PrintWriter salida;
     static Scanner teclado = new Scanner(System.in); 
 	/**
-	 * Constructor
+	 * Constructor.
 	 */
 	public ClienteTCP(String ip, int puerto) {
 		try {
